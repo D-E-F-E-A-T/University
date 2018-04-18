@@ -1,0 +1,23 @@
+/*
+28. Considere o seguinte algoritmo:
+início
+lógico: B1, B2, B3;
+leia (B1, B2, B3);
+se B1
+! então COMANDO1;
+! senão se B2
+! ! então se B3
+! ! ! então COMANDO2;
+! ! ! senão COMANDO3;
+! ! fimse;
+! fimse;
+fimse;
+COMANDO4;
+fim.
+Quais comandos serão executados se forem lidos os seguintes valores?
+a) B1 = verdadeiro, B2 = verdadeiro, B3 = verdadeiro COMANDO1, COMANDO2, COMANDO3
+b) B1 = falso, B2 = verdadeiro, B3 = falso COMANDO3,COMANDO4
+c) B1 = falso, B2 = verdadeiro, B3 = verdadeiro COMANDO2,COMANDO4
+d) Quais deverão ser os valores de B1, B2 e B3 para que somente o COMANDO4 seja
+executado? B1=falso,B2=falso,B3=indiferente
+*/

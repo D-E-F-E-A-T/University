@@ -1,0 +1,16 @@
+/*
+27. Qual será o valor de L ao final da execução do trecho de algoritmo abaixo?
+lógico: A, B, C;
+real: X, Y;
+inteiro: L;
+A <- falso; 
+B <- verdadeiro;
+C <- falso; 
+X <- 11.5;
+Y <- 3.2; 
+X <- X + 1;
+se C ou ((X + Y > 5) ou (não A e B))
+então L <- 0;
+senão L <- 1;
+fimse; 
+*/VALOR DO L = 1
