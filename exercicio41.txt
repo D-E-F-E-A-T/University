@@ -1,0 +1,24 @@
+41. Quais os resultados impressos pelo algoritmo abaixo?
+inicio
+lógico: X;
+inteiro: Y;
+Y <- 0;
+X <- falso;
+enquanto Y <> 6 faça
+X <- não X;
+false = t
+Y <- Y + 1;
+se X
+então imprima (Y);
+senão imprima (-Y);
+fimse;
+fimenquanto;
+fim.
+
+
+vai imprimir 
+1
+-2
+3
+-4
+5
