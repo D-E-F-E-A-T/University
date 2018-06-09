@@ -11,10 +11,10 @@ Salário Bruto = Horas Trabalhadas * Salário por Hora
 O salário líquido é igual ao salário bruto menos 11% de INSS. 
 
 */
-
 #include <iostream>
 
 using namespace std;
+
 int main(){
     string nome;
     float horastrab,salarioliq,salariobruto;
